@@ -1,0 +1,81 @@
+.header{
+text-indent: 100px;
+font-weight: bold;
+background-color: lightblue;
+font-family: sans-serif;
+padding: 50px;
+color: white;
+}
+
+body{
+    padding: 0px;
+    margin: 0;
+}
+
+section{
+    display: grid;
+    grid-template-areas:
+    "1   2   3   4  5";
+    column-gap: 10px;
+    margin-right: 150px;
+    float: right;
+}
+
+.podrucje1{grid-area: 1;}
+.podrucje2{grid-area: 2;}
+.podrucje3{grid-area: 3;}
+.podrucje4{grid-area: 4;}
+.podrucje5{grid-area: 5;}
+.podrucje{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: normal;
+    width: 100px;
+    font-size: x-small;
+    border: white solid 1px;
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.prava{
+    font-size: x-small;
+}
+
+h4{
+    font-family: sans-serif;
+}
+
+.area1 {grid-area: 5;}
+.area2 {grid-area: 6;}
+.area3 {grid-area: 7;}
+.area4 {grid-area: 8;}
+
+.tijelo{
+    display: grid;
+    grid-template-areas:
+    "5  5   5   5   6"
+    "5  5   5   5   6"
+    "5  5   5   5   6"
+    "5  5   5   5   7"
+    "5  5   5   5   7"
+    "5  5   5   5   8"
+    "5  5   5   5   .";
+}
+
+
+.area{
+    background-color:lemonchiffon;
+    grid-gap: 10px;
+    padding: 10px
+}
+
+.loremipsum{
+    background-color: gray;
+}

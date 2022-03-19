@@ -1,0 +1,32 @@
+.obrazac{
+text-align: right;
+font-size: x-small;
+}
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.zaglavlje{
+    overflow: auto;
+}
+.zaglavlje h1{
+    float: right;
+    margin-right: 300px;
+}
+.zaglavlje img{
+    float: left;
+    height: 128px;
+    width: 96px;
+}
+.crveno{
+    height: 10px;
+    background-color: red;
+    border: red;
+}
+.h3{
+    text-align: center;
+}
+.link{
+    text-align: right;
+    font-size: x-small;
+}
