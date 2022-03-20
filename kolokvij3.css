@@ -1,0 +1,50 @@
+section{
+    display: grid;
+    grid-template-areas:
+    "l l l s s d d d";
+}
+
+.l{
+    grid-area: l;
+    border-top: black solid 2px;
+    padding: 50px;
+    width: 300px;
+}
+
+.s{
+    grid-area: s;
+    border: black solid 2px;
+    border-top: none;
+    width: 250px;
+}
+
+.d{
+    grid-area: d;
+    border-top: solid black 2px;
+    padding: 50px;
+    width: 300px;
+    ;
+}
+
+.predaj{
+    background-color: black;
+    color: white;
+    width: 250px;
+}
+
+body{
+    margin: 100px;
+    margin-left: 500px;
+    margin-right: 375px;
+}
+
+.d::first-letter{
+    font-size: 2rem;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
