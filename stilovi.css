@@ -1,99 +1,70 @@
-body{
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
 h1{
-    border: dotted black 2px;
-    float: left;
-    font-size: 75px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 50px;
-    padding-left: 50px;
+    text-align: right;
+}
+body{
+    margin: 10rem;
+    margin-top: 5rem;
 }
 
-.traka{
+section{
     display: grid;
-    grid-template-areas:
-    "pocetna    prijava adresa  onama   faq";
-    column-gap: normal;
-    width: 1320px;
+    grid-template-areas: 
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "c d d";
 }
 
-.pocetna{
-    background-color: black;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.a{
+    grid-area: a;
+    background-color: lightgrey;
+    border: 1px black solid;
+    border-bottom: none;
+    font-size: 20px;
     text-align: center;
+    width: 200px;
+    padding: 20px;
 }
 
-.adresa{
-    background-color: black;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+.b{grid-area: b;}
+
+.c{
+    grid-area: c;
+    background-color: lightgray;
+    border: 1px black solid;
+    border-top: none;
+    border-right: none;
+    height: 50px;
 }
 
-.onama{
-    background-color: black;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+.d{
+    grid-area: d;
+    background-color: lightgray;
+    border: black solid 1px;
+    border-left: none;
+    color: lightgrey;
 }
 
-.faq{
-    background-color: black;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.prijava{
-    background-color: white;
-    color: black;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+tr, td, th, table{
+    border: solid black 1px;
+    border-collapse: collapse;
 }
 
 table{
+    float: left;
+    margin: 10px;
+}
+
+ul{
+    color: blue;
     float: right;
-    margin-right: 300px;
-    margin-top: 150px;
-    
 }
 
-table, th, td{
-border: solid 1px black;
-border-collapse: collapse;
-}
-
-.mk{
-    text-align: right;
-    padding: 5px;
-}
-
-.pr{
-    text-align: center;
-    padding: 5px;
-}
-
-.rb{
-    text-align: left;
+.podaci{
+    background-color: black;
+    color: white;
 }
