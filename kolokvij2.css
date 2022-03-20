@@ -1,0 +1,70 @@
+h1{
+    text-align: right;
+}
+body{
+    margin: 10rem;
+    margin-top: 5rem;
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "a b b"
+    "c d d";
+}
+
+.a{
+    grid-area: a;
+    background-color: lightgrey;
+    border: 1px black solid;
+    border-bottom: none;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+}
+
+.b{grid-area: b;}
+
+.c{
+    grid-area: c;
+    background-color: lightgray;
+    border: 1px black solid;
+    border-top: none;
+    border-right: none;
+    height: 50px;
+}
+
+.d{
+    grid-area: d;
+    background-color: lightgray;
+    border: black solid 1px;
+    border-left: none;
+    color: lightgrey;
+}
+
+tr, td, th, table{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+table{
+    float: left;
+    margin: 10px;
+}
+
+ul{
+    color: blue;
+    float: right;
+}
+
+.podaci{
+    background-color: black;
+    color: white;
+}

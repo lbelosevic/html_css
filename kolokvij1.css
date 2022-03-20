@@ -1,0 +1,99 @@
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1{
+    border: dotted black 2px;
+    float: left;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.traka{
+    display: grid;
+    grid-template-areas:
+    "pocetna    prijava adresa  onama   faq";
+    column-gap: normal;
+    width: 1320px;
+}
+
+.pocetna{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.adresa{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.onama{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.prijava{
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+table{
+    float: right;
+    margin-right: 300px;
+    margin-top: 150px;
+    
+}
+
+table, th, td{
+border: solid 1px black;
+border-collapse: collapse;
+}
+
+.mk{
+    text-align: right;
+    padding: 5px;
+}
+
+.pr{
+    text-align: center;
+    padding: 5px;
+}
+
+.rb{
+    text-align: left;
+}
